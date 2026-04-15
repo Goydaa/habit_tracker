@@ -1,4 +1,4 @@
-$content = @"
+
 # 📝 Habit Tracker CLI
 
 
