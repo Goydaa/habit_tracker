@@ -1,9 +1,7 @@
 $content = @"
 # 📝 Habit Tracker CLI
 
-![Python](https://img.shields.io/badge/python-3.13-blue.svg)
-![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)
-![Linter](https://img.shields.io/badge/linter-ruff-red.svg)
+
 
 Консольное приложение для эффективного мониторинга привычек и анализа прогресса выполнения ежедневных задач.
 
@@ -60,6 +58,3 @@ $content = @"
 | **Ruff** | \`ruff check main.py\` | Глубокий линтинг и поиск потенциальных ошибок |
 
 ---
-*Разработано в рамках учебного проекта по управлению разработкой ПО.*
-"@
-$content | Out-File -FilePath README.md -Encoding utf8
